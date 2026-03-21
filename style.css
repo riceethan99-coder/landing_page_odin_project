@@ -64,6 +64,7 @@ button {
 
 .boxes {
     display: flex;
+    justify-content: center;
 }
 
 .box {
@@ -72,7 +73,50 @@ button {
     background-color: white;
     border-radius: 15px;
     border-style: solid;
-    border-color: red;
+    border-color: blue;
     border-width: 5px;  
     margin: 10px;  
 }
+
+.textbox {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;  
+    margin: 10px;  
+    text-align: center;
+}
+
+.three {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    align-items: center;
+    
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 650px;
+    
+
+}
+
+.quote {
+    font-size: 34px;
+    font-style: italic;
+    
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
