@@ -9,12 +9,33 @@ body {
 
 .header {
     display: flex;
+    justify-content: center;
+    padding: 0px 50px; 
+}
+
+.test3 {
+    display: flex;
     justify-content: space-between;
-    padding: 0px 50px   
+    width: 1100px;
 }
 
 .one {
     background-color: #1F2937;
+}
+
+.lists {
+    display: flex;
+}
+
+li {
+    margin: 10px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+    font-size: medium;
 }
 
 h1, h2 {
@@ -23,6 +44,10 @@ h1, h2 {
 
 h4 {
     color: lightgrey;
+}
+
+h3 {
+    margin: 20px;
 }
 
 .hero {
@@ -45,10 +70,11 @@ h4 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: grey;
+    color: white;
 }
 
-button {
+.button1 {
     color: white;
     background-color: blue;
     border-radius: 5px;
@@ -120,3 +146,61 @@ button {
     align-items: flex-end;
 }
 
+.four {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.placeholder2 {
+    display: flex;
+    flex-direction: column;
+    width:650px; 
+    background-color: blue;
+    padding: 35px;
+    margin: 70px;
+    border-radius: 25px;
+}
+
+.cta {
+    margin-top: 25px;
+    padding: 0px; 
+    color: white
+
+}
+
+.signup {
+    color: white;
+}
+
+.button2 {
+    display: flex;
+    align-items: center;
+    background-color: blue;
+    border-color: white;
+    color: white;
+    border-radius: 15px;
+    width: 150x;  
+    height: 35px; 
+    padding: 20px;
+}
+
+.test {
+    display: flex;
+}
+
+.test2 {
+    display: flex;
+    align-items: center;
+}
+
+.five {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+}
+
+.footertext {
+    color: white;
+}
